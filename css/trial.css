@@ -1,0 +1,15 @@
+/*styling using element name*/
+p{
+    background-color: #000000;
+    color: #fcfff0;
+}
+/*styling using an id*/
+#para1{
+    background-color: #020057;
+    color: #fcfff0;
+}
+/*styling using class name*/
+.divhellos{
+    background-color: #fdff25;
+    color: #020057;
+}

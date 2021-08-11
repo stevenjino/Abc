@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Forms</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <div class="container">
+<!--        form-->
+        <form action="#" method="post" enctype="multipart/form-data">
+<!--            inside the form we can have inputs-->
+            <div class="row">
+                <div class="col-25">
+                    <label id="label">Full Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="text" name="fname" id="fname" placeholder="Enter your Full Name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label id="label">Email Address</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-25">
+                    <label id="label">Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="password" name="password" id="password" placeholder="Enter your Password">
+                </div>
+            </div>
+                <!--            dropdown-->
+            <div class="row">
+            <div class="col-25">
+                    <label id="label">Country of Origin</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <select name="Country" id="country">
+                        <option value="kenya">Kenya</option>
+                        <option value="uganda">Uganda</option>
+                        <option value="tanzania">Tanzania</option>
+                        <option value="rwanda">Rwanda</option>
+                        <option value="burundi">Burundi</option>
+                    </select>
+                </div>
+            </div>
+                <!--            Attachments-->
+            <div class="row">
+            <div class="col-25">
+                    <label id="label">User Image</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <input type="file" name="profilePic" multiple="">
+                </div>
+            </div>
+                <!--            textarea-->
+            <div class="row">
+            <div class="col-25">
+                    <label id="label">Enter Bio</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-75">
+                    <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Enter Your Bio"></textarea>
+                </div>
+            </div>
+                <!--            submit an reset buttons-->
+                <div class="row">
+                    <input type="submit" name="Submit" value="Submit Profile">
+                    <input type="reset" name="reset" value="Reset Form">
+                </div>
+        </form>
+    </div>
+</body>
+</html>

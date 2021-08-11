@@ -1,0 +1,39 @@
+Design
+HTML CSS BOOTSTRAP JS + HTML
+
+Layout Technique
+
+CSS
+class id class{
+    propertyvalue;
+}
+#class id tangae
+
+.CSS
+.you style html elements using css by using the following tags:
+-id; styles specific element with the id name
+-class; groups a styling and associates it with any element falling within the class
+-element name; sty;les any element without an id or class
+
+.3 forms of CSS
+-internal; CSS is written inside the html file
+-external; CSS is written outside the HTML file
+-inline; CSS is written using the style attribute inside the html file
+
+......................................................................
+Common properties: can be applied to any element
+Unique properties: applied to a specific element
+
+
+Javascript (DOM)
+
+//find elements using DOM. we use:
+document.getElementById('id')
+document.getElementByTagName('Element')
+document.getElementByClassName('Class Name')
+document.querySelctoreAll(css selector)
+
+Using JS for styling
+document.getElementById('')
+
+element.attribute = changes the attribute value of html elements

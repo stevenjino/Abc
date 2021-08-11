@@ -1,0 +1,59 @@
+/*links appear in four states: link, visited, hover, active*/
+#linkStyling:link {
+    color: #fdff25;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: #555651;
+    /**/
+}
+#linkStyling:visited{
+    color: #020057;
+    text-decoration: none;
+}
+#linkStyling:hover{
+    color: #510057;
+    text-decoration: underline;
+}
+#linkStyling:active{
+    color: #009b3e;
+    text-decoration: underline;
+}
+#stockTable{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#stockTable td , #stockTable th{
+    border: 1px solid #fdff25;
+    padding: 8px;
+}
+#stockTable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #020057;
+    color: #fdff25;
+}
+#stockTable tr:hover{
+    background-color: #ff9406;
+}
+#exampleDiv{
+    background-image: url("../images/sneakercloset.jpg");
+    height: 120px;
+    padding: 20px;
+    /*background-position: right bottom , left top;*/
+    background-repeat: no-repeat , repeat;
+    background-size: cover;
+}
+ul{
+    list-style-type: none;
+}
+#ul2{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #000000;
+    border: 1px solid #510057;
+}

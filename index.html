@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abc Home</title>
+<!--Attributes : metadata about elements-->
+<!--Link to CSS files here-->
+    <link rel="stylesheet" type="text/css" href="css/Style.css">
+</head>
+<body>
+<!--What we want the user to see or interact with-->
+<!--Grid Layout Technique-->
+    <div class="grid-container">
+        <div id="one">
+            <!--nav-->
+            <nav>
+                <!--links-->
+                <ul id="navUL">
+                    <li>
+                        <a href="public/Gallery.html">Gallery</a>
+                    </li>
+                    <!--Absolute link-->
+                    <li>
+                        <a href="">Shop</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Profile</a>
+                    </li>
+                    <li>
+                    <a target="_blank" href="https://www.adidas.com/us">Adidas</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div id="two">
+                <ul id="ul2">
+                    <li class="list">
+                        <a class="list" href="">Nike</a></li>
+                    <li class="list">
+                        <a class="list" href="">Adidas</a>
+                    </li>
+                    <li class="list">
+                        <a class="list" href="">New Balance</a>
+                    </li>
+                    <li class="list">
+                        <a class="list" href="">Puma</a>
+                    </li>
+                </ul>
+        </div>
+        <div id="three">
+            <iframe width=100% height=100% src="https://www.youtube.com/embed/m4gW8qTUeZg" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>" frameborder="0"></iframe>
+        </div>
+        <div id="four">
+        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Accusantium cum in laboriosam mollitia nobis quaerat,
+            <br>tempora totam unde veritatis voluptatem! Blanditiis deserunt <br> est incidunt iusto maiores quas unde.
+            Ipsam, quas! <br>Shoe Content comes here. <br>More Shoe Content here.
+        </blockquote>
+        </div>
+        <div id="five">
+            <div class="flex-container">
+                <div id="oneflex">
+                    <a href="https://www.nike.com" target="_blank">
+                        <img class="images" src="images/Nike-Logo.jpg" alt="Image Not Found" width="200" height="120">
+                    </a>
+                </div>
+                <div id="twoflex">
+                    <img src="images/nike1.jpg" alt="Image Not Found" width="200" height="120">
+                </div>
+                <div id="threeflex">
+                    <img src="images/nike1.jpg" alt="Image Not Found" width="200" height="120">
+                </div>
+                <div id="fourflex">
+                    <img src="images/nike1.jpg" alt="Images Not Found" width="200" height="120">
+                </div>
+            </div>
+            <div class="flex-container">
+                <div id="oneflex">
+                    <a href="https://www.adidas.com" target="_blank">
+                        <img class="images" src="images/Adidas-logo.jpg" alt="Image Not Found" width="200" height="120">
+                    </a>
+                </div>
+                <div id="twoflex">
+                    <img src="images/nike1.jpg" alt="Image Not Found" width="200" height="120">
+                </div>
+                <div id="threeflex">
+                    <img src="images/nike1.jpg" alt="Image Not Found" width="200" height="120">
+                </div>
+                <div id="fourflex">
+                    <img src="images/nike1.jpg" alt="Images Not Found" width="200" height="120">
+                </div>
+            </div>
+        </div>
+        <div id="six">
+            <h2 id="contact">Need More Info?</h2>
+            <p id="contact">Contact Us on: <br>
+            Phone: +254 790 124 925 <br>
+            Email: njino.steve7@gmail.com</p>
+            <h4 id="contact">
+                Or Request Information Below</h4>
+            <div class="container">
+                <!--        form-->
+                <form action="#" method="post" enctype="multipart/form-data">
+                    <!--            inside the form we can have inputs-->
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Full Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="text" name="fname" id="fname" placeholder="Enter your Full Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Email Address</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="email" name="email" id="email" placeholder="Enter your Email Address">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="password" name="password" id="password" placeholder="Enter your Password">
+                        </div>
+                    </div>
+                    <!--            dropdown-->
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Country of Origin</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <select name="Country" id="country">
+                                <option value="kenya">Kenya</option>
+                                <option value="uganda">Uganda</option>
+                                <option value="tanzania">Tanzania</option>
+                                <option value="rwanda">Rwanda</option>
+                                <option value="burundi">Burundi</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!--            Attachments-->
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Relevant Document</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <input type="file" name="profilePic" multiple="">
+                        </div>
+                    </div>
+                    <!--            textarea-->
+                    <div class="row">
+                        <div class="col-25">
+                            <label id="label">Inquiry</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-75">
+                            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Ask Anything. We're here to help."></textarea>
+                        </div>
+                    </div>
+                    <!--            submit and reset buttons-->
+                    <div class="row">
+                        <input type="submit" name="Submit" value="Request Info">
+                        <input type="reset" name="reset" value="Reset">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!--link to JS files-->
+<script type="text/javascript" src="js/Script.js"></script>
+</body>
+</html>
